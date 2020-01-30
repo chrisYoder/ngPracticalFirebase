@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 
 import { AdminModule } from './admin/admin.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { AdminModule } from './admin/admin.module';
   imports: [
     BrowserModule,
     AppRoutingModule, 
-	AdminModule
+	AdminModule, 
+
   ],
   providers: [],
   bootstrap: [AppComponent]
